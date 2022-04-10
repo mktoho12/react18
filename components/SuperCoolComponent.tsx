@@ -1,7 +1,8 @@
-import { FC } from "react"
+import { FC, ReactNode } from "react"
 
 type Props = {
   border?: boolean
+  children: ReactNode
 }
 
 const SuperCoolComponent: FC<Props> = ({ border, children }) => (
